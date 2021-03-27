@@ -58,11 +58,14 @@ header a {
 
 header a.facebook {
     font-family: var(--font-standard);
+    font-size: 20px;
     color: var(--color-bright);
     margin-top: 36px;
     border: 6px double var(--color-bright);
     padding: 6px;
     border-radius: 20px;
+    width: auto;
+    box-sizing: border-box;
 }
 
 header a.facebook:hover {
