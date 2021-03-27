@@ -27,6 +27,7 @@ header {
     background-color: var(--color-clean);
     width: 100%;
     align-items: center;
+    box-sizing: border-box;
 }
 
 header img {
@@ -104,16 +105,30 @@ section.bright h2 {
     color: var(--color-clean);
 }
 
+h3 {
+    font-family: var(--font-standard);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
 p {
     margin: 6px 0;
 }
 
+section.who-we-are {
+    flex-direction: column;
+}
+
 section img {
+    float: left;
     width: auto;
     height: auto;
-    max-width: 50%;
+    max-width: 140px;
     border-radius: 6px;
     margin-bottom: 12px;
+    margin-right: 12px;
+    margin-top: 6px;;
 }
 
 
