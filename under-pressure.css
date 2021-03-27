@@ -66,6 +66,8 @@ header a.facebook {
     border-radius: 20px;
     width: auto;
     box-sizing: border-box;
+    margin-left: -36px;
+    margin-right: -36px;
 }
 
 header a.facebook:hover {
