@@ -1,0 +1,9 @@
+{
+    "root": "./",
+    "canonical_host": "${HOST}",
+    "clean_urls": true,
+    "routes": {
+        "/assets/*": "/assets/",
+        "/**": "index.html"
+    }
+}
